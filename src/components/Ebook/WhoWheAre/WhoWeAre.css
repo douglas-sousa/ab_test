@@ -1,0 +1,66 @@
+#textWhoWeAre {
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 2.3vh;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #4F4F4F;
+}
+
+#ian-image{
+    margin: auto 0 auto auto;
+    transform: scale(0.9);
+    border: 3px solid #333333;
+    border-radius: 16px;
+}
+
+#who-we-are-container{
+    width: 80%;
+    margin: 16vh auto 16vh auto;
+}
+
+#WhoWeAreButton{
+    text-decoration: none;
+    width: 40vh; 
+    height: 8vh; 
+    margin-top: 5vh;
+    display: grid;
+    background: #FBFBFB;
+    border: 5px solid #333333;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 3vh;
+    padding: 1vh;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+@media only screen and (max-width: 1000px) {
+    #WhoWeAreButton{
+        margin: auto;
+        margin-top: 5vh;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .flex-item{
+        margin-right: auto;
+    }
+
+    #who-we-are-container{
+        width: 100%;
+        margin: 10vh auto;
+        text-align: center;
+    }
+
+    #ian-image{
+        width: 90vw;
+    }
+}

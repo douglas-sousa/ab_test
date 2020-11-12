@@ -1,0 +1,58 @@
+#Ebook-Form-Container{
+    width: 50%;
+    display: inline-block;
+}
+
+#Ebook-Card-Form{
+    background: #FBFBFB;
+    box-shadow: 2px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 8vh;
+    margin-right: 0px;
+}
+
+.secondaryTextEbook{
+    font-size: 2vh;
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 3.1vh;
+    margin-top: 4vh;
+    color: #4F4F4F;
+    margin-bottom: 4vh;
+}
+
+#labelEbookText{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vh;
+    color: #4F4F4F;
+    line-height: 4vh;
+}
+
+#main-title-ebook{
+    width: fit-content;
+    margin: auto auto 2vh auto;
+}
+
+@media only screen and (max-width: 1610px) {
+    #Ebook-Form-Container{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    #Ebook-Form-Container{
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    #main-title-ebook{
+        font-size: 3.5vh;
+    }
+
+    #Ebook-Card-Form{
+        padding: 4vh;
+    }
+}

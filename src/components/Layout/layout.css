@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-display: swap;
+  src: url('../../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype'),
+       url('../../fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype'),
+       url('../../fonts/Open_Sans/OpenSans-ExtraBold.ttf') format('truetype'),
+       url('../../fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf') format('truetype'),
+       url('../../fonts/Open_Sans/OpenSans-Italic.ttf') format('truetype'),
+       url('../../fonts/Open_Sans/OpenSans-Light.ttf') format('truetype'),
+       url('../../fonts/Open_Sans/OpenSans-LightItalic.ttf') format('truetype'),
+       url('../../fonts/Open_Sans/OpenSans-SemiBold.ttf') format('truetype'),
+       url('../../fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf') format('truetype');
+}
+      
+@font-face {
+  font-family: 'Ubuntu';
+  font-display: swap;
+  src: url('../../fonts/Ubuntu/Ubuntu-Bold.ttf') format('truetype'),
+        url('../../fonts/Ubuntu/Ubuntu-BoldItalic.ttf') format('truetype'),
+        url('../../fonts/Ubuntu/Ubuntu-Italic.ttf') format('truetype'),
+        url('../../fonts/Ubuntu/Ubuntu-Light.ttf') format('truetype'),
+        url('../../fonts/Ubuntu/Ubuntu-LightItalic.ttf') format('truetype'),
+        url('../../fonts/Ubuntu/Ubuntu-Medium.ttf') format('truetype'),
+        url('../../fonts/Ubuntu/Ubuntu-MediumItalic.ttf') format('truetype'),
+        url('../../fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+        
+}
+
+@font-face {
+  font-family: 'Anton';
+  font-display: swap;
+  src: url('../../fonts/Anton/Anton-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-display: swap;
+  src: url('../../fonts/Raleway/Raleway-Black.ttf') format('truetype'),
+       url('../../fonts/Raleway/Raleway-VariableFont_wght.ttf') format('truetype'),
+       url('../../fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+
+
+html,
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div.ubuntuText {
+  font-family: 'Ubuntu';
+  text-align: left;
+}
+
+div.openSansText {
+  font-family: 'Open Sans', sans-serif;
+}
+
+div.openSansItalic {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+
+h1 {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 24px;
+  font-size: 3vw;
+  color: #01FFDD;
+}
+
+h2 {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  text-align: center;
+  padding-top: 60px; 
+  padding-bottom: 20px;
+  font-size: 2vw;
+  color: #8A75EC;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  font-size: 2vw; 
+  color: #F6F6F6;
+}
+
+.grid {
+  position: relative;
+  width: 80%;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.collumn2 {
+  flex: 1 1 50%;
+  max-width: 50%;
+}
+
+.collumn3 {
+  flex: 1 1 33%;
+  max-width: 33%;
+}
+
+.column4{
+  display: flex;
+  flex: 1 1 33%;
+  max-width: 33%;
+  background-color: #F2F2F2;
+  border-top-right-radius: 20px;
+  height: 80vh;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.loader {
+  border: 6px solid #f3f3f3; /* Light grey */
+  border-top: 6px solid #8A75EC; /* Blue */
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media only screen and (max-width: 760px) {
+  h1 {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 7vw;
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 18px; 
+  }
+  
+  h2 {
+    font-size: 26px; 
+    padding-top: 30px;
+  }
+  .grid {
+    display: inline-block;
+    text-align: -webkit-center;
+  }
+  .collumn2 {
+    max-width: 100%;
+  }
+  .column4{
+    border-top-right-radius: 0px;
+    max-width: 100%;
+    height: auto;
+    background-color: #F8F8F8;
+  }
+}

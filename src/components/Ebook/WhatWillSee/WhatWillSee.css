@@ -1,0 +1,23 @@
+
+#buttonText {
+    text-decoration: none;
+    margin: auto;
+    width: 40vh; 
+    height: 8vh; 
+    margin-top: 4vh;
+    display: grid;
+    background: #FBFBFB;
+    border: 5px solid #333333;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 2.3vh;
+    padding: 1vh;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #333333;
+}
+

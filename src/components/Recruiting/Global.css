@@ -1,0 +1,53 @@
+h2 {
+    font-size: 4vh;
+}
+
+html{
+    background: #FBFBFB;
+}
+
+#background {
+    background-image: url('./Presentation/background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.ubuntu-title {
+    font-family: Ubuntu;
+    font-weight: 800;
+    font-size: 5vh;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    #background {
+        background-image: url('./Presentation/background-mobile.png');
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .container {
+        width: 90% !important;
+        margin: auto !important;
+    }
+
+    #background {
+        background-image: url('./Presentation/background-mobile.png');
+    }
+}

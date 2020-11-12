@@ -1,0 +1,30 @@
+#form-container-FormView {
+  width: 40%;
+  display: inline-block;
+}
+
+#header-FormView {
+  margin-top: 40px;
+}
+
+#subtitle-FormView {
+  color: #4F4F4F;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 40px;
+}
+
+@media only screen and (max-width: 760px) {
+  #form-container-FormView {
+    width: 90%;
+  }
+  
+  #subtitle-FormView {
+    font-size: 18px;
+    margin: 16px 0px 32px 0px;
+  }
+
+  #header-FormView {
+    margin-top: 52px;
+  }
+}

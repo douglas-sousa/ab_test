@@ -1,0 +1,68 @@
+#innerCircleContainer-WhyStudyForm {
+  background: #01FFDC;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  display: inline-grid;
+  border: 3px solid #333333;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 16px;
+}
+#number-WhyStudyForm {
+  font-family: 'Open Sans', sans-serif;
+  color: #F6F6F6;
+  font-size: 48px;
+  padding-top: 8px;
+}
+#title-WhyStudyForm {
+  font-family: 'Ubuntu';
+  color: #333333;
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px; 
+  margin-bottom: 16px;
+}
+#text-WhyStudyForm {
+  font-family: 'Open Sans', sans-serif;
+  color: #4F4F4F;
+  text-align: center;
+  font-size: 22px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 760px) {
+  #innerCircleContainer-WhyStudyForm {
+    width: 73px;
+    height: 73px;
+  }
+  #number-WhyStudyForm {
+    font-size: 32px;
+  }
+  #title-WhyStudyForm {
+    font-size: 20px;
+  }
+  #text-WhyStudyForm {
+    font-size: 18px;
+  }
+  #grid-WhyStudyForm {
+    margin-top: 40px;
+    position: relative;
+    width: 90%;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  #arrow-WhyStudyForm {
+    flex: 1 1 10%;
+    max-height: 30px;
+    align-self: center;
+  }
+  #content-WhyStudyForm {
+    flex: 1 1 80%;
+    padding: 0px 20px;
+    min-height: 330px;
+  }
+}
