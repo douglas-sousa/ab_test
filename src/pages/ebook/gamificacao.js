@@ -42,8 +42,10 @@ function Gameficacao(props) {
   }
   
   useEffect(() => {
-    window.dataLayer = window.dataLayer || []
-    window.dataLayer.push({ event: 'optimize.activate' });
+    setTimeout(() => {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'optimize.activate' });
+    }, 0);
     clearOptimizeCookies('_gaexp', '_ga', '_gid', '_gat_gtag_UA_174228191_1');
   }, []);
   
