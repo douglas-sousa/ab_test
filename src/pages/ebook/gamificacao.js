@@ -29,7 +29,7 @@ function Gameficacao(props) {
   const description = 'Já pensou em criar um jogo e desafiar seu filho(a)? Crie um dos jogos clássicos, apresente o universo da programação para o seu filho(a) e se divirta!'
   
   function deleteCookie(name) {
-    document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Domain=.unruffled-roentgen-087857.netlify.app';
+    document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Domain=.jolly-shannon-bd2201.netlify.app';
   }
 
   function clearOptimizeCookies(...names) {
