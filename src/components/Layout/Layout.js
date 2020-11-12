@@ -20,7 +20,7 @@ const Layout = ({ children, removeHeader, props, target }) => {
 
   return (
     <>
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3WQV84"
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKQ3ND2"
         height="0" width="0" style={{display:'none', visibility:'hidden'}} />
       </noscript>
       {removeHeader ? <div/> : <Header {...props}/>}
