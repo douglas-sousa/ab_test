@@ -4,6 +4,8 @@ import SEO from "../../components/seo"
 import Layout from "../../components/Layout/Layout";
 
 import '../../components/Recruiting/Global.css'
+import '../../components/Form/Leads/Form.css';
+import '../../components/Recruiting/Presentation/Presentation.css';
 
 import EbookPresentation from "../../components/Ebook/EbookPresentation/EbookPresentation";
 import WhatWillSee from "../../components/Ebook/WhatWillSee/WhatWillSee";

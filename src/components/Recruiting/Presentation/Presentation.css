@@ -1,0 +1,82 @@
+.item {
+    margin: 2%;
+    flex: 1;
+    text-align: left
+}
+
+.contentContainer-Presentation {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.titleText {
+    font-family: 'Anton';
+    font-size: 6.5vh;
+    line-height: 8vh;
+    letter-spacing: 0.1vh;
+    color: #8A75EC;
+    text-align: left;
+}
+
+.secondaryText {
+    font-size: 2.5vh;
+    font-family: Open Sans; 
+    font-weight: 600; 
+    line-height: 4.1vh;
+    margin-top: 4vh;
+    color: #4F4F4F
+}
+
+#buttonProfessor {
+    text-decoration: none;
+    width: 40vh; 
+    height: 8vh; 
+    margin-top: 10vh;
+    display: grid;
+    background: #D2C9F8;
+    border: 5px solid #333333;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 3vh;
+    padding: 1vh;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.item-padding {
+    padding: 5vh 8vh 5vh 0 
+}
+
+@media only screen and (max-width: 580px) {
+    #buttonProfessor {
+        margin-top: 5vh;
+        font-size:2.7vh;
+    }
+
+    .video iframe {
+        width: 100%;
+        transform: scale(0.98);
+    }
+
+    .video {
+        flex: 1;
+        text-align: center;
+        padding: 1.5vh;
+    }
+
+    .item-padding {
+        padding: 5vh 0vh 5vh 0 
+    }
+
+    .contentContainer-Presentation {
+        display: grid;
+        padding: 6vh 0 0 !important;
+    }
+}
+
+/**/
