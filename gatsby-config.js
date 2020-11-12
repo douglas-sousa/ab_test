@@ -3,7 +3,7 @@ module.exports = {
     title: `teste`,
     description: "Curso de programação online para crianças e jovens entre 7 e 18 anos",
     author: `Colmeia`,
-    siteUrl: 'https://www.google.com',
+    siteUrl: 'https://jolly-shannon-bd2201.netlify.app/',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -22,8 +22,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Google`,
-        short_name: `Google`,
+        name: `jolly-shannon-bd2201`,
+        short_name: `jolly-shannon-bd2201`,
         start_url: `/`,
         background_color: `#8A75EC`,
         theme_color: `#8A75EC`,
@@ -34,12 +34,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-100949672-12",
+        trackingId: "UA-174228191-1",
         head: false,
         defer: false,
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "google.com",
+        cookieDomain: "jolly-shannon-bd2201.netlify.app",
       },
     },
     {

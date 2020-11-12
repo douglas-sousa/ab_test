@@ -71,20 +71,20 @@ function SEO({ description, lang, meta, title }) {
     >
       <link rel="preconnect" href="https://www.facebook.com" />
       <link rel="preconnect" href="https://connect.facebook.net" />
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100949672-12"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174228191-1"></script>
       <script defer>
         {`window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'UA-100949672-12');`}
+        gtag('config', 'UA-174228191-1', { 'optimize_id': 'OPT-MTS3K2S' });`}
       </script>
       <script defer>
         {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-NHP6WCC');`}
+        })(window,document,'script','dataLayer','GTM-N3WQV84');`}
       </script>
       <script defer>
         {`!function(f,b,e,v,n,t,s)

@@ -1,4 +1,4 @@
-import React, { useRef } from "react"
+import React, { useEffect } from "react"
 
 import SEO from "../../components/seo"
 import Layout from "../../components/Layout/Layout";
@@ -24,6 +24,25 @@ const styleProps = {
 
 function Gameficacao(props) {
   const description = 'Já pensou em criar um jogo e desafiar seu filho(a)? Crie um dos jogos clássicos, apresente o universo da programação para o seu filho(a) e se divirta!'
+  
+  function deleteCookie(name) {
+    document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Domain=.unruffled-roentgen-087857.netlify.app';
+  }
+
+  function clearOptimizeCookies(...names) {
+    window.addEventListener('beforeunload', () => {
+      names.forEach((name) => deleteCookie(name));
+    });
+    window.addEventListener('pagehide', () => {
+      names.forEach((name) => deleteCookie(name));
+    });
+  }
+  
+  useEffect(() => {
+    window.dataLayer = window.dataLayer || []
+    window.dataLayer.push({ event: 'optimize.activate' });
+    clearOptimizeCookies('_gaexp', '_ga', '_gid', '_gat_gtag_UA_174228191_1');
+  }, []);
   
   return <Layout props={styleProps} target={'ebook'}>
     <SEO title="🎮 Já pensou em criar um jogo e desafiar seu filho(a)?" description={description} />
